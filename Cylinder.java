@@ -26,10 +26,7 @@ public class Cylinder {
 	{
 		return (int) Math.round((2*Math.PI*r*(r+h)));		
 	}
-	public static int Volume(float r, float h)
-	{
-		return (int) Math.round((Math.PI*Math.pow(r, 2)*h));		
-	}
+	
 	
 
 }
